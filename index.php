@@ -13,8 +13,7 @@
 
 </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="main.js"></script>
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
         var video   = document.getElementById('videoel');
         var canvas      = document.getElementById('canvas');
         var ctx         = canvas.getContext('2d');
@@ -42,14 +41,10 @@
                 success: function(data){
                     if(data) {
                         console.log('saved');
+                        console.log('data is '+data);
                     }
-                    //do whatever.
                 }
-
-
             });
-            // setTimeout(draw, 250, video, ctx, width, height);
-            // console.log('URL: ', dataURL);
         }
-    </script> -->
+    </script>
 </html>

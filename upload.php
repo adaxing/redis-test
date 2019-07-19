@@ -25,7 +25,7 @@
          $redis = new Predis\Client();      
          $redis = new Predis\Client(array(
              "schema" => "tcp",
-             "host" => '127.0.0.1',
+             "host" => '10.0.0.3',
              "port"=> 6379
          )); 
          echo "Connection to server sucessfully"; 
@@ -43,7 +43,7 @@
          $redis = new Predis\Client();      
          $redis = new Predis\Client(array(
              "schema" => "tcp",
-             "host" => '127.0.0.1',
+             "host" => '10.0.0.3',
              "port"=> 6379
          )); 
          echo "Connection to server sucessfully"; 

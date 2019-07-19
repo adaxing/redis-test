@@ -1,7 +1,8 @@
-runtime: php7
-api_version: 1
-threadsafe: true
+runtime: php72
+# env: flex
+env_variables: 
+  REDISHOST: '10.0.0.3'
+  REDISPORT: '6379'
 
-handlers:
-- url: /.*
-  script: index.php
+# network:
+#   name: default
